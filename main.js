@@ -94,7 +94,7 @@ function test (event) {
         // b) bordure rouge
         affichageClassColor("#nom", "red");
         // c) ajoute message d'erreur
-        affichageMessageError(".box1", ".box1 p", "alert", "Le nom doit avoir entre 2 et 10 caractères");               
+        affichageMessageError(".box1", ".box1 p", "alert", "Your name must be between 2 and 10 characters");               
     } else {
         deleteMessageError(".box1 p");
         deleteClassColor("#nom");
@@ -106,7 +106,7 @@ function test (event) {
         // b) bordure rouge
         affichageClassColor("#prenom", "red");
         // c) ajoute message d'erreur
-        affichageMessageError(".box2", ".box2 p", "alert", "Le prénom doit avoir entre 2 et 10 caractères");      
+        affichageMessageError(".box2", ".box2 p", "alert", "Your first name must be between 2 and 10 characters");      
     } else {
         deleteMessageError(".box2 p");
         deleteClassColor("#prenom");
@@ -118,7 +118,7 @@ function test (event) {
         // b) bordure rouge
         affichageClassColor("#naissance", "red");
         // c) ajoute message d'erreur
-        affichageMessageError(".box3", ".box3 p", "alert", "La date doit être rentré JJ/MM/AAAA");                 
+        affichageMessageError(".box3", ".box3 p", "alert", "The date must be entered DD / MM / YYYY");                 
     } else {
         deleteMessageError(".box3 p");
         deleteClassColor("#naissance");        
@@ -130,7 +130,7 @@ function test (event) {
         // b) bordure rouge
         affichageClassColor("#email", "red");
         // c) ajoute message d'erreur
-        affichageMessageError(".box4", ".box4 p", "alert", "Adresse mail non valide");              
+        affichageMessageError(".box4", ".box4 p", "alert", "Invalid email address");              
     } else {
         deleteMessageError(".box4 p");
         deleteClassColor("#email");
