@@ -1,0 +1,33 @@
+html {
+    font-size: 16px;
+}
+
+body {
+    width: 100%;
+}
+
+label{
+    margin-bottom: 1rem;;
+}
+
+form, table {
+    width: 100%;
+    max-width: 50%;
+    margin: 2rem auto 0 auto;
+}
+
+
+.field {
+    display: flex;
+    margin-bottom: 2rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.red {
+    border: 0.2rem solid red;
+}
+
+.alert {
+    color: red;
+}
